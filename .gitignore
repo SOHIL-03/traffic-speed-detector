@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data folder (saved images + CSV)
+data/
+
+# Model weights (large files, download separately)
+yolov8n.pt
+
+# EasyOCR downloaded models
+.EasyOCR/
+
+# Uploaded videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Streamlit
+.streamlit/
+
+# Environment
+.env
+venv/
+.venv/
